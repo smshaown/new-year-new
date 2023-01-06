@@ -116,7 +116,7 @@ main{
 
 /* positive section style start */
 .positive-item{
-    margin-top: 50px;
+    margin-top: 100px;
     width: 100%;
     height: 280px;
     background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("images/watch.png");    
@@ -130,7 +130,7 @@ main{
     color: white;
 }
 
-.call-now{
+.btn-call-now{
     background-color: white;
     color: #F15B22;
     border-radius: 5px;
@@ -142,3 +142,75 @@ main{
 }
 
 /* positive section style start */
+footer{
+    background-color: #151414;
+    color:white;
+    margin-top: 100px;
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.footer-details{}
+
+.footer-titlie{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.footer-desc{
+    font-weight: 400;
+    font-size: 16px;
+    width: 50%;
+    line-height: 25px;
+    margin-bottom: 22px;
+    color: #FFFFFF;
+}
+
+.footer-sub-title{
+    font-size: 16px;
+    margin: 20px 0px;
+    color: #FFFFFF;
+}
+.footer-img img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.footer-subscribe{
+    margin-left: -180px;
+}
+
+.subscribe-title{
+    margin-bottom: 20px;
+    font-weight: 600;
+     font-size: 25px;
+}
+
+.btn-footer{
+   border: 1px solid red;
+   background-color: #FFFFFF;
+   padding: 16px 22px;
+   margin-top: 25px;
+   font-size: 16px;
+   color: #F15B22;
+   font-weight: bold;
+   border-radius: 5px;
+}
+
+.footer-input{
+    width: 100%;
+    background-color: #151414;
+    padding: 16px 20px;
+    color: white;
+}
