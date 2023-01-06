@@ -44,3 +44,101 @@
 }
 
 /* Banner  style section end  */
+
+/* My failure style Section start  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.my-failure-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+
+.failure-title{    
+    color: #151414;
+    padding: 0px 72px;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.failure-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 20px;
+    padding: 0px 72px;
+    line-height: 20px;
+}
+
+.my-failure-details ul li{
+    list-style: none;
+    line-height: 25px;
+    padding: 0px 72px;
+}
+
+
+
+/* My plan section style start*/
+.plan-title{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.Plan-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+}
+.plan-title-item{
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.plan-desc{
+    color: #737272;
+    font-size: 18px;
+}
+/* My plan section style end*/
+
+/* positive section style start */
+.positive-item{
+    margin-top: 50px;
+    width: 100%;
+    height: 280px;
+    background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("images/watch.png");    
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+.positive-title{
+    font-size: 40px;
+    padding: 50px 60px;
+    color: white;
+}
+
+.call-now{
+    background-color: white;
+    color: #F15B22;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 16px 26px;
+    margin-left: 60px;
+    margin-top: -25px;
+}
+
+/* positive section style start */
