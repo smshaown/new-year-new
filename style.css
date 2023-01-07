@@ -45,19 +45,20 @@
 
 /* Banner  style section end  */
 
-/* My failure style Section start  */
+/* Main section */
+
 main{
     max-width: 1140px;
     margin: 0 auto;
 }
 
+/* My failure style Section start  */
 .my-failure-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 100px 0px;
 }
-
 
 .failure-title{    
     color: #151414;
@@ -80,8 +81,6 @@ main{
     line-height: 25px;
     padding: 0px 72px;
 }
-
-
 
 /* My plan section style start*/
 .plan-title{
@@ -141,7 +140,61 @@ main{
     margin-top: -25px;
 }
 
-/* positive section style start */
+
+/* blogs box style start */
+.blog-new-title{
+    text-align: center;
+    margin-top: 50px;   
+}
+
+.new-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.text-primary{
+    color: red;
+}
+
+.blog-text{
+    font-size: 22px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blogs-container{
+    display: flex;
+    gap: 40px;
+}
+
+.blogs-container img {
+    width: 340px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:10px;
+}
+
+.blogs{
+    width: 340px;
+    background:white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius:10px;
+    margin-top: 50px;
+}
+
+.blog-title{
+    padding: 10px;
+}
+
+.blogs-description{
+    padding: 10px;
+}
+
+
+/* Footer Section style start  */
+
 footer{
     background-color: #151414;
     color:white;
@@ -156,8 +209,6 @@ footer{
     justify-content: space-around;
     gap: 25px;
 }
-
-.footer-details{}
 
 .footer-titlie{
     font-weight: 700;
@@ -213,4 +264,6 @@ footer{
     background-color: #151414;
     padding: 16px 20px;
     color: white;
+    border-radius: 5px;
 }
+
